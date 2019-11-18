@@ -890,10 +890,10 @@ div.bio {
 .desktop-view .vmo,
 .mobile-view .vdo {
   display: none !important;
-  font-family: 'Helvetica Rounded',Helvetica,Arial,Lucida,sans-serif;
-  color: #30a9cf;
-  font-weight: 600;
-  font-size: 18px;
+  font-family: 'Helvetica Rounded',Helvetica,Arial,Lucida,sans-serif!important;
+  color: #30a9cf!important;
+  font-weight: 600!important;
+  font-size: 18px!important;
 }
 
 @if $links_position == left {
