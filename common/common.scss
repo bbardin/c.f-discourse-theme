@@ -78,7 +78,17 @@ tbody {
 }
 
 // Header
-
+.d-header-icons .btn-flat a{
+  color: #30a9cf!important;
+}
+.d-header-icons .btn-flat a:hover{
+  opacity: .7!important
+  color: #30a9cf!important;
+  background-color: #fff!important;
+  transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+}
 .d-header {
   box-shadow: none;
   border-bottom: 1px solid $primary-low;
