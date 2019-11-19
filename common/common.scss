@@ -892,8 +892,10 @@ div.bio {
   font-weight: 600!important;
   font-size: 18px!important;
 }
-
-.desktop-view .vmo,
+.custom-header-links .headerLink a:hover {
+  opacity: .7!important;
+}  
+desktop-view .vmo,
 .mobile-view .vdo {
   display: none !important;
   font-family: 'Helvetica Rounded',Helvetica,Arial,Lucida,sans-serif!important;
