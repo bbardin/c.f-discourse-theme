@@ -78,12 +78,19 @@ tbody {
 }
 
 // Header
-.header-dropdown-toggle a{
+.d-header-icons .d-icon {
   color: #30a9cf!important;
 }
 .header-dropdown-toggle a:hover{
   opacity: .7!important;
   color: #30a9cf!important;
+  background-color: #fff!important;
+  transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+}
+.d-header-icons .d-icon a:hover{
+  opacity: .7!important;
   background-color: #fff!important;
   transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
